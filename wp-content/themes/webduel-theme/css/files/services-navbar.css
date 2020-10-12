@@ -1,0 +1,27 @@
+.services .services-nav ul{ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+}
+.services .services-nav ul li{ 
+    padding: 10px 0;
+    width: 200px;
+    text-align: center;
+    border: 2px solid #005A46;
+    
+    color: #005A46; 
+    cursor: pointer;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+
+
+
+.blue-background{ 
+    color: white !important; 
+    background: #005A46;
+}
+

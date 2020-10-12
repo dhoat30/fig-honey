@@ -1,0 +1,127 @@
+.header-img img{ 
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*navbar */ 
+.desktop-navbar .menu{ 
+    font-weight: 400;
+}
+.desktop-navbar{ 
+    display: flex;
+    flex-direction: row;
+}
+.mobile-navbar{
+    display: none;
+}
+
+
+.desktop-navbar>div:nth-child(1){ 
+    width: 90%;
+}
+.desktop-navbar>div:nth-child(2){ 
+    width: 10%;
+}
+.desktop-navbar ul{ 
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+.desktop-navbar .menu a{ 
+    color: #454545;
+    text-decoration: none;
+}
+.desktop-navbar .menu a:hover{ 
+    color: #24806C;
+}
+.desktop-navbar .menu a:active{ 
+    color: #24806C;
+}
+
+
+/*serch icon*/ 
+ .search-icon{ 
+    width: 20px;
+    height: 20px;
+cursor: pointer;
+}
+.navbar .close-icon{ 
+    width: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.navbar .search-bar-container{ 
+    position: relative;
+}
+.navbar .search-bar{ 
+    width: 300px;
+    position: absolute;
+    top: 30;
+    right: 100px;
+    display: none;
+}
+
+
+@media (max-width:600px){ 
+    .desktop-navbar{ 
+        display: none;
+    }
+    .mobile-navbar{
+        display: block;
+    }
+    .mobile-navbar li{ 
+        display: none;
+    }
+    .mobile-navbar ul{ 
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: space-around;
+    }
+    .mobile-navbar .menu a{ 
+        color: #454545;
+        text-decoration: none;
+        display: block;
+        padding: 20px 10px;
+    }
+    .mobile-navbar .menu li:nth-child(even){ 
+        background: #FAFAFA;
+    }
+    .mobile-navbar .menu a:hover{ 
+        color: #24806C;
+    }
+    .mobile-navbar .menu a:active{ 
+        color: #24806C;
+    }
+
+    .mobile-navbar .mobile-top-nav{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 5px;
+    }
+    .navbar .search-bar{ 
+        width: 250px;
+        position: absolute;
+        top: 30;
+        right: 10px;
+        display: none;
+    }
+    
+
+    .mobile-navbar .hamburger-menu span img{ 
+       width: 40px;
+        position: relative;
+        cursor: pointer;
+    }
+    .search-icon{ 
+        width: 30px;
+        height: 30px;
+    }
+    
+
+}

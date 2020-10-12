@@ -1,0 +1,88 @@
+.footer{ 
+    background: #F5F5F5;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer>div{ 
+    width: 300px;
+    margin: 0 0 50px 0;
+    
+}
+.footer .image-column img{ 
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+/*footer menu*/ 
+.footer .footer-menu ul{ 
+   list-style: none;
+}
+.footer .footer-menu ul li a{ 
+    color: #454545; 
+    text-decoration: none;
+    padding: 0 0 5px 0;
+    display: block;
+}
+.footer .footer-menu ul li a:hover{ 
+    color: #24806C;
+}
+
+/*footer contact*/ 
+.footer .contact a{
+    color: #454545; 
+    text-decoration: none;
+}
+.footer .contact a:hover{ 
+    color: #24806C;
+}
+.footer .contact>div:nth-child(1){ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.footer .contact>div:nth-child(1) a{ 
+    display: block;
+    margin-bottom: 10px;
+}
+.footer .contact>div:nth-child(1) img{ 
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+}
+
+.footer .contact img{ 
+    width: 30px;
+}
+
+.footer .contact>div:nth-child(2) img{ 
+    display: inline-block;
+    margin-right: 5px;
+}
+.footer .contact h5{ 
+    margin:10px 0 5px 0;
+}
+
+.copyright{ 
+    background: #454545;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.copyright a{ 
+    color: white; 
+    text-decoration: none;
+}
+.copyright a:hover{ 
+    color: #24806C; 
+   
+}
+.copyright a span{ 
+    color: rgba(252,186,27,1.00)
+}

@@ -1,0 +1,29 @@
+.blog-cards{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog-cards .card{ 
+    margin: 20px;
+    width: 40%;
+    min-width: 500px;
+}
+
+.blog-cards .card:hover{ 
+    color: red !important;
+}
+
+.blog-cards .card img{ 
+display: block;
+width: 100%;
+height: auto;
+}
+.blog-cards .card a{ 
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.blog-cards .card a:hover{ 
+    color: #24806C;
+}

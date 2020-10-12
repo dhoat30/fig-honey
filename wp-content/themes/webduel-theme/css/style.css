@@ -1,0 +1,172 @@
+ @import 'files/header.css';
+@import 'files/footer.css'; 
+@import 'files/home.css'; 
+
+@import 'files/gallery.css';
+@import 'files/about-us.css';
+@import 'files/services.css';
+@import 'files/services-navbar.css';
+@import 'files/blogs.css';
+/*global styling*/ 
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Serif TC', serif;
+	
+}
+
+/*margin*/ 
+.row-margin{ 
+	margin: 70px 0 !important;
+}
+.column-margin{ 
+	margin: 20px 0;
+}
+
+/*rows and columns*/ 
+.res-width { 
+	width: 95%;
+	margin-right: auto; 	
+	margin-left: auto;
+	max-width: 1500px;
+}
+
+/*fonts */ 
+.wt-extra-light{ 
+	font-weight: 100;
+}
+.wt-regular{ 
+	font-weight: 400;
+}
+
+.wt.medium{ 
+	font-weight: 500;
+}
+.wt-semi-bold{ 
+	font-weight: 600;
+}
+.wt-bold{ 
+	font-weight: 700;
+}
+.wt-black{ 
+	font-weight: 900;
+}
+
+/*font size*/ 
+.center-align{ 
+	text-align: center;
+}
+.ft-paragraph{ 
+font-size:16px; 
+color:#454545;
+letter-spacing: 1px;
+}
+.ft-paragraph span{ 
+	margin-bottom: 20px !important;
+	display: block;
+}
+.ft-pg-title{ 
+	font-size: 70px;
+	font-weight: 100;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.ft-row-title{ 
+	font-size: 50px;
+	color:#000000; 
+	font-weight: 400;
+}
+.ft-column-title{ 
+	font-size: 35px;
+	color: #000000; 
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.ft-column-subheading{ 
+	font-size: 20px;
+	color:#808080; 
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+/*special element*/ 
+.underline{ 
+	border: 2px solid #73B9AA;
+	width: 188px;
+	margin-bottom: 20px;
+}
+.underline-center{ 
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.notes{ 
+	color: #454545;
+	margin-top: 20px;
+	
+}
+/*buttons */ 
+.btn-container{ 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 40px;
+}
+.btn{ 
+	display: inline-block;
+	text-decoration: none;
+	width: 200px;
+	text-align: center;
+	margin: 10px 5px;
+}
+
+.btn img{ 
+	width: 20px;
+}
+
+.btn-blue{ 
+	background: #24806C;
+	color: white; 
+	padding: 10px 20px;
+}
+.btn-blue:hover{ 
+	background: #005A46; 
+}
+.btn-border-blue{ 
+	border: 2px solid #24806C;
+	color: #24806C;
+	padding: 9px 20px;
+}
+.btn-border-blue:hover{ 
+	border: 2px solid #005A46;
+	color: #005A46;
+}
+
+/*contact form*/ 
+.contact-form .form .nf-form-fields-required{ 
+	display: none;
+}
+.nf-form-content button, .nf-form-content label{ 
+	font-size: 14px !important;
+}
+
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit]{ 
+	background: #24806C !important;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 auto !important;
+}
+.nf-form-content button, .nf-form-content input[type=button], .nf-form-content input[type=submit]:hover{ 
+	background: #005A46 !important;
+	color:white !important;
+}
+
+.nf-after-form-content{ 
+	max-width: 1000px !important;
+	margin: 0 auto;
+}
+

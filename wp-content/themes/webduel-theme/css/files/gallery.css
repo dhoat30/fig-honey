@@ -1,0 +1,10 @@
+.gallery #bwg_container1_0 #bwg_container2_0 .tablenav-pages_0 a{
+    border: 2px solid #24806C;
+	color: #24806C;
+    padding: 9px 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.bwg_container{ 
+    margin: 0px auto !important;
+}

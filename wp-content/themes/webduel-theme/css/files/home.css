@@ -1,0 +1,102 @@
+
+.hero-section-styling{ 
+width: 100%;
+height: 80vh;
+background-attachment: fixed;
+background-size: cover;
+}
+
+@media (max-width: 500px){ 
+    .hero-section-styling{ 
+        width: 100%;
+        height: 40vh;
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    }
+
+/*content*/
+.home .info-section .column{ 
+    max-width: 900px !important;
+    margin: 0 auto;
+}
+
+
+/*usp */ 
+.home .usp-container{ 
+ background: #FAFAFA;
+ padding: 50px 0;
+}
+
+.home .usp-container .res-width{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    max-width: 1200px;
+}
+.home .usp-container .res-width>div{ 
+    margin: 0 10px 50px 10px;
+}
+.home .usp-container .res-width div img{ 
+    width: 120px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+
+
+/*Grazing Servies*/ 
+.home .grazing-service .res-width-custom{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin: 0 0 0 auto;
+}
+.home .grazing-service .res-width-custom>div:nth-child(1){ 
+    width: 45%;
+}
+.home .grazing-service .res-width-custom>div:nth-child(2){ 
+    width: 50%;
+}
+.home .grazing-service .img-container div{
+    width: 100%;
+    height: 500px; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:800px){ 
+    .home .grazing-service .res-width-custom>div:nth-child(1){ 
+        width: 100%;
+    }
+    .home .grazing-service .res-width-custom>div:nth-child(2){ 
+        width: 100%;
+    }
+    .home .grazing-service .res-width-custom{ 
+        width: 95%;
+        margin: 0 auto 0 auto;
+    }
+    .home .grazing-service .img-container div{
+        width: 100%;
+        height: 300px; 
+    }
+    
+}
+
+/*review */ 
+.price-cards .card img{ 
+    width: 70px;
+    height: auto;
+    margin: 0 auto;
+    display: block; 
+    position: relative;
+    right: 10px;
+}
