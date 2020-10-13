@@ -2,9 +2,14 @@
 <head>
     
     <meta name="robots" content="noindex">
+    <link rel="icon" 
+      type="image/png" 
+      href="<?php echo get_theme_file_uri('img/logo.png'); ?>">
     <meta charset="<?php bloginfo('charset');?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="profile" href="https://gmpg.org/xfn/11"/>
+     <title>Grazing Tables Service | Grazing Boxes | Hire & Delivery</title>
+     <meta name=”description” content='Welcome to Fig & Honey Grazing, thanks for stopping by. We believe that the best moments in life are often enjoyed with even better food. Our bespoke grazing tables are designed to impress your guests and leave them wanting more.'>
     <?php wp_head(); ?>
     <?php 
         global $post;
