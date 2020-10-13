@@ -12,8 +12,8 @@ function theme_files() {
   }
   else{
     wp_enqueue_script('our-vendor-js', get_theme_file_uri('/bundled-assets/undefined' ), array("jquery"), '1.0', true);
-    wp_enqueue_script('main-webduel-js', get_theme_file_uri('/bundled-assets/scripts.59c88ba486691afaf966.js' ), array("jquery"), '1.0', true);
-    wp_enqueue_style( 'our-main-styles', get_theme_file_uri('/bundled-assets/styles.59c88ba486691afaf966.css'));
+    wp_enqueue_script('main-webduel-js', get_theme_file_uri('/bundled-assets/scripts.df4e319f8e567219c26b.js' ), array("jquery"), '1.0', true);
+    wp_enqueue_style( 'our-main-styles', get_theme_file_uri('/bundled-assets/styles.df4e319f8e567219c26b.css'));
   }
 
 }

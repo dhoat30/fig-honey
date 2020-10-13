@@ -14,6 +14,8 @@
 }
 .mobile-navbar{
     display: none;
+
+  
 }
 
 
@@ -71,6 +73,7 @@ cursor: pointer;
     }
     .mobile-navbar{
         display: block;
+        
     }
     .mobile-navbar li{ 
         display: none;
