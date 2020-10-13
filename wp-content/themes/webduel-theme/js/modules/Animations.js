@@ -85,7 +85,7 @@ class Animations{
             },
             duration: 2, 
             opacity: 0, 
-            x: -300
+            y:100
         });
 
     }
@@ -101,7 +101,7 @@ class Animations{
             },
             duration: 2, 
             opacity: 0, 
-            x: 600
+            y:100
         });
 
     }
