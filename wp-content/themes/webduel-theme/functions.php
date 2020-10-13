@@ -12,8 +12,8 @@ function theme_files() {
   }
   else{
     wp_enqueue_script('our-vendor-js', get_theme_file_uri('/bundled-assets/undefined' ), array("jquery"), '1.0', true);
-    wp_enqueue_script('main-webduel-js', get_theme_file_uri('/bundled-assets/scripts.6fbcef82d82ad91daaaf.js' ), array("jquery"), '1.0', true);
-    wp_enqueue_style( 'our-main-styles', get_theme_file_uri('/bundled-assets/styles.6fbcef82d82ad91daaaf.css'));
+    wp_enqueue_script('main-webduel-js', get_theme_file_uri('/bundled-assets/scripts.ce5bcc112955e8b836ef.js' ), array("jquery"), '1.0', true);
+    wp_enqueue_style( 'our-main-styles', get_theme_file_uri('/bundled-assets/styles.ce5bcc112955e8b836ef.css'));
   }
 
 }
@@ -56,3 +56,9 @@ add_action('after_setup_theme', 'university_features');
   }
 
   add_theme_support( 'post-thumbnails' );
+
+  //stop heartbeat
+  add_action( 'init', 'stop_heartbeat', 1 );
+function stop_heartbeat() {
+wp_deregister_script('heartbeat');
+}

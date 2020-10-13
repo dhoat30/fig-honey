@@ -3,7 +3,16 @@
     display: block;
     margin: 0 auto;
 }
-
+@media (max-width:600px){
+    .header-img img{ 
+        width: 45px;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+    } 
+}
 /*navbar */ 
 .desktop-navbar .menu{ 
     font-weight: 400;
@@ -14,7 +23,8 @@
 }
 .mobile-navbar{
     display: none;
-
+    padding: 10px 0;
+    position: relative;
   
 }
 
@@ -92,6 +102,9 @@ cursor: pointer;
     }
     .mobile-navbar .menu li:nth-child(even){ 
         background: #FAFAFA;
+    }
+    .mobile-navbar .menu li:nth-child(odd){ 
+        background: white;
     }
     .mobile-navbar .menu a:hover{ 
         color: #24806C;

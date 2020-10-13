@@ -6,10 +6,26 @@
     flex-direction: row;
     justify-content: space-around;
 }
+@media (max-width:500px){ 
+.footer{ 
+    justify-content: flex-start;
+}}
 .footer>div{ 
     width: 300px;
     margin: 0 0 50px 0;
     
+}
+@media (max-width:500px){ 
+    .footer{ 
+        justify-content: flex-start;
+    }
+    .footer>div:nth-child(1){
+        display: none;
+       
+    }
+    .footer>div{ 
+        margin-left: 20px;
+    }
 }
 .footer .image-column img{ 
     width: 150px;

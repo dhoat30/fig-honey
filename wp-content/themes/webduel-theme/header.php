@@ -49,7 +49,7 @@
             </nav>
 
             
-            <nav class="mobile-navbar column-margin">
+            <nav class="mobile-navbar">
                 <div class="mobile-top-nav">
                     <div class="hamburger-menu">
                         <span>
