@@ -121,12 +121,15 @@
     list-style: none;
     margin: 10px 0;
 }
+.services .menu-container ul li { 
+    padding-left: 40px;
+        text-indent:-18px;
+}
 .services .menu-container ul li:before{ 
-    content: url(http://localhost/fig-honey/wp-content/uploads/2020/10/leaf-1.png);
+    content: url(https://figandhoneygrazing.co.nz/wp-content/uploads/2020/10/leaf-1.png);
     /*or absolute*/
     margin-right: 10px;
     max-width: 20px;
-    
     display: inline-block;
   
 }
