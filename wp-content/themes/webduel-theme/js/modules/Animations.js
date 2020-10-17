@@ -19,7 +19,7 @@ class Animations{
             scrollTrigger:{
                 trigger: '.ft-pg-title', 
                 scrub: true, 
-                start: '-200px 30%',
+                start: '-300px 30%',
                 end : '-100px 20%'
             },
             duration: 2, 

@@ -12,8 +12,8 @@ function theme_files() {
   }
   else{
     wp_enqueue_script('our-vendor-js', get_theme_file_uri('/bundled-assets/undefined' ), array("jquery"), '1.0', true);
-    wp_enqueue_script('main-webduel-js', get_theme_file_uri('/bundled-assets/scripts.0f1eb2696387932681bb.js' ), array("jquery"), '1.0', true);
-    wp_enqueue_style( 'our-main-styles', get_theme_file_uri('/bundled-assets/styles.0f1eb2696387932681bb.css'));
+    wp_enqueue_script('main-webduel-js', get_theme_file_uri('/bundled-assets/scripts.62616d3aa751111adfc1.js' ), array("jquery"), '1.0', true);
+    wp_enqueue_style( 'our-main-styles', get_theme_file_uri('/bundled-assets/styles.62616d3aa751111adfc1.css'));
   }
 
 }
@@ -52,8 +52,24 @@ add_action('after_setup_theme', 'university_features');
         'public'=>true, 
         'has_archive' => true, 
         'menu_icon' => 'dashicons-format-quote'
-      ) );
+      ) 
+    
+    );
+
+    register_post_type( 'banners', array(
+      'labels'=> array(
+          'name' => ('Banners'), 
+          'singular_name'=>('Banner')
+      ), 
+      'public'=>true, 
+      'has_archive' => true, 
+      'menu_icon' => 'dashicons-format-aside'
+    ) );
   }
+
+     
+        
+  
 
   add_theme_support( 'post-thumbnails' );
 
