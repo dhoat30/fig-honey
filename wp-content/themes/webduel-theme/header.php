@@ -1,6 +1,15 @@
 <html <?php language_attributes();?>>
 <head>
-    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-180770624-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-180770624-1');
+    </script>
+
     <meta name="robots" content="noindex">
     <link rel="icon" 
       type="image/png" 
