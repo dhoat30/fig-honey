@@ -78,3 +78,5 @@ add_action('after_setup_theme', 'university_features');
 function stop_heartbeat() {
 wp_deregister_script('heartbeat');
 }
+
+/*add email in the footer*/ 

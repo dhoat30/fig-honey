@@ -177,6 +177,9 @@ get_header();
                 <p class="center-align">This can be made vegan or vegetarian friendly. </p>
             </div>
         </section>
+        <section> 
+        <?php if( function_exists('photo_gallery') ) { photo_gallery(2); } ?>
+        </section>
     </section>
 
     <section class="hire-container services-container">
