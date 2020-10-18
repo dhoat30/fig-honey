@@ -177,7 +177,7 @@ get_header();
                 <p class="center-align">This can be made vegan or vegetarian friendly. </p>
             </div>
         </section>
-        <section> 
+        <section style="padding-bottom: 50px;"> 
         <?php if( function_exists('photo_gallery') ) { photo_gallery(2); } ?>
         </section>
     </section>
