@@ -29,6 +29,22 @@
 <body <?php body_class( $post_slug);?> >
 
     <div class="main-body">
+        <section class="banner center-align ft-paragraph">
+
+            <?php 
+                $banner = new wp_query(array(
+                    'post_type' => 'banners', 
+                    'posts_per_page' => 1
+
+                )); 
+
+                while($banner->have_posts()){ 
+                    $banner->the_post(); 
+
+                   echo get_the_title();
+                }
+            ?>
+        </section>
         <section class="row-container header-img">
             <div class="res-width">
                 <img src="<?php echo get_theme_file_uri('img/logo.png') ?>" alt="Logo">

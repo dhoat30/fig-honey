@@ -13,6 +13,8 @@ class DesktopNavbar{
 
       //show mobile navbar
       $('.navbar .hamburger-menu').on('click', this.showNavbar); 
+      $(document).ready(this.showBanner); 
+
     }
 
     //functions
@@ -34,6 +36,12 @@ class DesktopNavbar{
                 $(this).css('color', '#24806C');
             }
         }); 
+    }
+
+    //show navbar
+    showBanner(){ 
+        $(".banner").delay(2000).slideDown(500);
+
     }
 }
 
