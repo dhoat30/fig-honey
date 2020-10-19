@@ -29,7 +29,7 @@
 <body <?php body_class( $post_slug);?> >
 
     <div class="main-body">
-        <section class="banner center-align ft-paragraph">
+        <section>
 
             <?php 
                 $banner = new wp_query(array(
@@ -41,7 +41,16 @@
                 while($banner->have_posts()){ 
                     $banner->the_post(); 
 
-                   echo get_the_title();
+                    if(get_the_title()){ 
+                        ?>
+                        <div class="banner center-align ft-paragraph"><?php echo get_the_title();?></div>
+
+                        <?php
+                    }
+                    ?>
+
+                    <?php 
+                   
                 }
             ?>
         </section>
