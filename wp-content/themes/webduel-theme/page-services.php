@@ -159,7 +159,7 @@ get_header();
         </section>
         <section class="price-cards">
             <div class="card">
-                <div class="center-align">$35</div>
+                <div class="center-align">$55</div>
                 <div class="ft-column-subheading center-align">Small Grazers Charcuterie</div>
                 <div class="sub-sub-heading center-align ft-paragraph">Suitable for 1 - 4 people</div>
                 <p class="center-align">This can be made vegan or vegetarian friendly. </p>
